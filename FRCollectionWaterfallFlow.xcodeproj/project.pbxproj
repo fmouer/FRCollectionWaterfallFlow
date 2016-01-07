@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		356523911C3AC2FF00EB59BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 356523901C3AC2FF00EB59BF /* main.m */; };
+		356523941C3AC2FF00EB59BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 356523931C3AC2FF00EB59BF /* AppDelegate.m */; };
+		356523971C3AC2FF00EB59BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 356523961C3AC2FF00EB59BF /* ViewController.m */; };
+		3565239A1C3AC2FF00EB59BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 356523981C3AC2FF00EB59BF /* Main.storyboard */; };
+		3565239C1C3AC2FF00EB59BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3565239B1C3AC2FF00EB59BF /* Assets.xcassets */; };
+		3565239F1C3AC2FF00EB59BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3565239D1C3AC2FF00EB59BF /* LaunchScreen.storyboard */; };
+		356523A81C3AC31E00EB59BF /* FRWaterfallFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 356523A71C3AC31E00EB59BF /* FRWaterfallFlowView.m */; };
+		356523AB1C3AC34A00EB59BF /* FRWaterfallFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 356523AA1C3AC34A00EB59BF /* FRWaterfallFlowLayout.m */; };
+		356523B11C3AC3C100EB59BF /* FRWaterfallFlowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 356523B01C3AC3C100EB59BF /* FRWaterfallFlowCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3565238C1C3AC2FF00EB59BF /* FRCollectionWaterfallFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FRCollectionWaterfallFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		356523901C3AC2FF00EB59BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		356523921C3AC2FF00EB59BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		356523931C3AC2FF00EB59BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		356523951C3AC2FF00EB59BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		356523961C3AC2FF00EB59BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		356523991C3AC2FF00EB59BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3565239B1C3AC2FF00EB59BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3565239E1C3AC2FF00EB59BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		356523A01C3AC2FF00EB59BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		356523A61C3AC31E00EB59BF /* FRWaterfallFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRWaterfallFlowView.h; sourceTree = "<group>"; };
+		356523A71C3AC31E00EB59BF /* FRWaterfallFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRWaterfallFlowView.m; sourceTree = "<group>"; };
+		356523A91C3AC34A00EB59BF /* FRWaterfallFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRWaterfallFlowLayout.h; sourceTree = "<group>"; };
+		356523AA1C3AC34A00EB59BF /* FRWaterfallFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRWaterfallFlowLayout.m; sourceTree = "<group>"; };
+		356523AF1C3AC3C100EB59BF /* FRWaterfallFlowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FRWaterfallFlowCell.h; sourceTree = "<group>"; };
+		356523B01C3AC3C100EB59BF /* FRWaterfallFlowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FRWaterfallFlowCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		356523891C3AC2FF00EB59BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		356523831C3AC2FF00EB59BF = {
+			isa = PBXGroup;
+			children = (
+				3565238E1C3AC2FF00EB59BF /* FRCollectionWaterfallFlow */,
+				3565238D1C3AC2FF00EB59BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3565238D1C3AC2FF00EB59BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3565238C1C3AC2FF00EB59BF /* FRCollectionWaterfallFlow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3565238E1C3AC2FF00EB59BF /* FRCollectionWaterfallFlow */ = {
+			isa = PBXGroup;
+			children = (
+				356523A61C3AC31E00EB59BF /* FRWaterfallFlowView.h */,
+				356523A71C3AC31E00EB59BF /* FRWaterfallFlowView.m */,
+				356523A91C3AC34A00EB59BF /* FRWaterfallFlowLayout.h */,
+				356523AA1C3AC34A00EB59BF /* FRWaterfallFlowLayout.m */,
+				356523AF1C3AC3C100EB59BF /* FRWaterfallFlowCell.h */,
+				356523B01C3AC3C100EB59BF /* FRWaterfallFlowCell.m */,
+				356523921C3AC2FF00EB59BF /* AppDelegate.h */,
+				356523931C3AC2FF00EB59BF /* AppDelegate.m */,
+				356523951C3AC2FF00EB59BF /* ViewController.h */,
+				356523961C3AC2FF00EB59BF /* ViewController.m */,
+				356523981C3AC2FF00EB59BF /* Main.storyboard */,
+				3565239B1C3AC2FF00EB59BF /* Assets.xcassets */,
+				3565239D1C3AC2FF00EB59BF /* LaunchScreen.storyboard */,
+				356523A01C3AC2FF00EB59BF /* Info.plist */,
+				3565238F1C3AC2FF00EB59BF /* Supporting Files */,
+			);
+			path = FRCollectionWaterfallFlow;
+			sourceTree = "<group>";
+		};
+		3565238F1C3AC2FF00EB59BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				356523901C3AC2FF00EB59BF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3565238B1C3AC2FF00EB59BF /* FRCollectionWaterfallFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 356523A31C3AC2FF00EB59BF /* Build configuration list for PBXNativeTarget "FRCollectionWaterfallFlow" */;
+			buildPhases = (
+				356523881C3AC2FF00EB59BF /* Sources */,
+				356523891C3AC2FF00EB59BF /* Frameworks */,
+				3565238A1C3AC2FF00EB59BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FRCollectionWaterfallFlow;
+			productName = FRCollectionWaterfallFlow;
+			productReference = 3565238C1C3AC2FF00EB59BF /* FRCollectionWaterfallFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		356523841C3AC2FF00EB59BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = fmouer;
+				TargetAttributes = {
+					3565238B1C3AC2FF00EB59BF = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 356523871C3AC2FF00EB59BF /* Build configuration list for PBXProject "FRCollectionWaterfallFlow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 356523831C3AC2FF00EB59BF;
+			productRefGroup = 3565238D1C3AC2FF00EB59BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3565238B1C3AC2FF00EB59BF /* FRCollectionWaterfallFlow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3565238A1C3AC2FF00EB59BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3565239F1C3AC2FF00EB59BF /* LaunchScreen.storyboard in Resources */,
+				3565239C1C3AC2FF00EB59BF /* Assets.xcassets in Resources */,
+				3565239A1C3AC2FF00EB59BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		356523881C3AC2FF00EB59BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				356523AB1C3AC34A00EB59BF /* FRWaterfallFlowLayout.m in Sources */,
+				356523971C3AC2FF00EB59BF /* ViewController.m in Sources */,
+				356523A81C3AC31E00EB59BF /* FRWaterfallFlowView.m in Sources */,
+				356523941C3AC2FF00EB59BF /* AppDelegate.m in Sources */,
+				356523B11C3AC3C100EB59BF /* FRWaterfallFlowCell.m in Sources */,
+				356523911C3AC2FF00EB59BF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		356523981C3AC2FF00EB59BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				356523991C3AC2FF00EB59BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3565239D1C3AC2FF00EB59BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3565239E1C3AC2FF00EB59BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		356523A11C3AC2FF00EB59BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		356523A21C3AC2FF00EB59BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		356523A41C3AC2FF00EB59BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FRCollectionWaterfallFlow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmouer.FRCollectionWaterfallFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		356523A51C3AC2FF00EB59BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FRCollectionWaterfallFlow/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fmouer.FRCollectionWaterfallFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		356523871C3AC2FF00EB59BF /* Build configuration list for PBXProject "FRCollectionWaterfallFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				356523A11C3AC2FF00EB59BF /* Debug */,
+				356523A21C3AC2FF00EB59BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		356523A31C3AC2FF00EB59BF /* Build configuration list for PBXNativeTarget "FRCollectionWaterfallFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				356523A41C3AC2FF00EB59BF /* Debug */,
+				356523A51C3AC2FF00EB59BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 356523841C3AC2FF00EB59BF /* Project object */;
+}
